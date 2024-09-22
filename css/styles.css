@@ -1,0 +1,27 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading styles */
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Paragraph styles */
+  p {
+    color: #666;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Add styles to the modal or any other section */
+  #favorite-food {
+    color: red;
+    font-weight: bold;
+  }
+  
