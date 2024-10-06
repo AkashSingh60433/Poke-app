@@ -1,5 +1,4 @@
 let pokemonRepository = (function () {
-  // Empty array to hold the list of Pokémon
   let pokemonList = [];
 
   const apiUrl = 'https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0';
@@ -65,7 +64,6 @@ let pokemonRepository = (function () {
         return response.json();
       })
       .then(function (details) {
-        // Now we add the details to the Pokémon
         pokemon.imageUrl = details.sprites.front_default;
         pokemon.height = details.height;
       })
