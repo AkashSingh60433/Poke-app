@@ -1,4 +1,4 @@
-# Pokémon Repository Application
+# Pokémon List App
 
 A web-based Pokémon repository that loads Pokémon data from the [PokéAPI](https://pokeapi.co/api/v2/pokemon/?limit=150) and displays a list of Pokémon with detailed information. This application is built using **HTML**, **CSS**, **JavaScript**, and integrated with **Bootstrap** for responsive design and UI components. The app also includes modular JavaScript patterns such as **IIFEs** and demonstrates fetching and rendering data from an external API.
 
